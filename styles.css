@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+.gallery-highlight {
+    width: 80%;
+    height: 50%;
+}
+
+section {
+    display: flex;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff,
+                 0 0 40px #fff,
+                 0 0 80px #fff,
+                 0 0 120px #fff,
+                 0 0 140px #fff;
+                   
+}
+
+p {
+    text-align: center;
+    padding: 30px;
+}
+
+.spotify {
+    box-shadow: 0 0 10px white,
+                0 0 20px white;
+                
+}
+
+.storm-gallery {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.storm-description {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:lightslategray;
+}
+
+.storm-preview {
+    display: flex;
+    width: 80%;
+    border: 2px solid lightslategray;
+}
+
+.storm-preview img {
+    height: 100px;
+    flex-grow: 1;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+img.storm-active {
+    opacity: 1;
+}
